@@ -3,13 +3,23 @@
 
 
 I added on the zombie codes the ability to drop supply when killed with over 9 options. The idea came to my mind thanks to a HL demo mod called "Crowbar Deep in The Dead".
+
 The code also comes with an additional thing, choosing what faction the zombie will join on spawn.
+
+
+
 3 things to make the code:
-1_Defining ( line 47)
+
+1_Defining ( line 47) 
+
 2_Spawn Function ( line 317 - 369)
+
 3_Killed Function ( line 485)
 
+
+
 "Drop Supply" codes in "FGD":
+
 {
  weapons(Choices) : "Drop Supply" : 0 =
   [
@@ -27,7 +37,11 @@ The code also comes with an additional thing, choosing what faction the zombie w
   ]
 }
 
+
+
+
 Change Teams in "FGD":
+
 {
 team(choices) : "Team Faction" : 0 =
 	[
